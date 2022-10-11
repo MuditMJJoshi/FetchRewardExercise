@@ -25,7 +25,7 @@ Creating payer and transaction database and instead of using in memory storage w
 - Install JAVA JDK 11
 - Install SpringBoot IDE like IntelliJ or Eclipse 
 - Clone the repository gh repo clone MuditMJJoshi/FetchRewardExercise
-- Open the project in the IDE
+- Open the project folder FetchRewardsWebService in the IDE
 - Run \src\main\java\com\example\FetchRewardsWebService\FetchRewardsWebServiceApplication.java
 - Run using command line(windows) or terminal install Maven and add it to your environment variable.
 - To test API use PostMan
