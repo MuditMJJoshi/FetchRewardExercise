@@ -44,7 +44,14 @@ Creating payer and transaction database and instead of using in memory storage w
 
 # API Usage:
 
+- Spring Boot starts running the TomCat Server and using Postman request/response API
+<img height="100%" width="100%" src="/Snaps/1.jpg"/>
+<br/>
+
 - Add transaction to payer
+
+<img height="100%" width="100%" src="/Snaps/2.jpg"/>
+<br/>
 ```
 POST http://localhost:8080/api/v1/FetchRewardServices/addPoints/1
 ```
@@ -61,7 +68,15 @@ Response body:
 200 OK “Points added successfully”
 ```
 
+- Successfully added all transaction points
+
+<img height="100%" width="100%" src="/Snaps/3.jpg"/>
+<br/>
+
 - Spend transaction points
+
+<img height="100%" width="100%" src="/Snaps/4.jpg"/>
+<br/>
 ```
 POST http://localhost:8080/api/v1/FetchRewardServices/spendPoints/1
 ```
@@ -84,6 +99,9 @@ Response body:
 ```
 
 - Balance of payer
+
+<img height="100%" width="100%" src="/Snaps/5.jpg"/>
+<br/>
 ```
 GET http://localhost:8080/api/v1/FetchRewardServices/balance/1
 ```
@@ -97,23 +115,6 @@ Response body:
     "DANNON": 700
 }
 ```
-
-# Postman Example
-
-<img height="100%" width="100%" src="/Snaps/1.jpg"/>
-<br/>
-<img height="100%" width="100%" src="/Snaps/2.jpg"/>
-<br/>
-<img height="100%" width="100%" src="/Snaps/3.jpg"/>
-<br/>
-<img height="100%" width="100%" src="/Snaps/4.jpg"/>
-<br/>
-<img height="100%" width="100%" src="/Snaps/5.jpg"/>
-<br/>
-
-
-
-
 
 # Testing:
 - I tested my API using Postman instead of creating test in test folder. However one can easily use @SpringBootTest and @Test Assertions.assertEquals(value1, value2 ) to check edge cases and proper working of API.
