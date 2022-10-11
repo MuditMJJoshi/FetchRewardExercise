@@ -100,6 +100,21 @@ Response body:
 
 # Postman Example
 
+<img height="100%" width="100%" src="/Snaps/1.png"/>
+<br/>
+<img height="100%" width="100%" src="/Snaps/2.png"/>
+<br/>
+<img height="100%" width="100%" src="/Snaps/3.png"/>
+<br/>
+<img height="100%" width="100%" src="/Snaps/4.png"/>
+<br/>
+<img height="100%" width="100%" src="/Snaps/5.png"/>
+<br/>
+
+
+
+
+
 # Testing:
 - I tested my API using Postman instead of creating test in test folder. However one can easily use @SpringBootTest and @Test Assertions.assertEquals(value1, value2 ) to check edge cases and proper working of API.
  
