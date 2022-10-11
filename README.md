@@ -44,14 +44,14 @@ Creating payer and transaction database and instead of using in memory storage w
 
 # API Usage:
 
-- Spring Boot starts running the TomCat Server and using Postman request/response API
+## Spring Boot starts running the TomCat Server and using Postman request/response API
 <img height="100%" width="100%" src="/Snaps/1.jpg"/>
 <br/>
 
-- Add transaction to payer
+## Add transaction to payer
 
 <img height="100%" width="100%" src="/Snaps/2.jpg"/>
-<br/>
+
 ```
 POST http://localhost:8080/api/v1/FetchRewardServices/addPoints/1
 ```
@@ -68,15 +68,15 @@ Response body:
 200 OK “Points added successfully”
 ```
 
-- Successfully added all transaction points
+## Successfully added all transaction points
 
 <img height="100%" width="100%" src="/Snaps/3.jpg"/>
-<br/>
 
-- Spend transaction points
+
+## Spend transaction points
 
 <img height="100%" width="100%" src="/Snaps/4.jpg"/>
-<br/>
+
 ```
 POST http://localhost:8080/api/v1/FetchRewardServices/spendPoints/1
 ```
@@ -98,10 +98,10 @@ Response body:
 ]
 ```
 
-- Balance of payer
+## Balance of payer
 
 <img height="100%" width="100%" src="/Snaps/5.jpg"/>
-<br/>
+
 ```
 GET http://localhost:8080/api/v1/FetchRewardServices/balance/1
 ```
