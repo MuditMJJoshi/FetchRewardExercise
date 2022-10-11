@@ -100,15 +100,15 @@ Response body:
 
 # Postman Example
 
-<img height="100%" width="100%" src="/Snaps/1.png"/>
+<img height="100%" width="100%" src="/Snaps/1.jpg"/>
 <br/>
-<img height="100%" width="100%" src="/Snaps/2.png"/>
+<img height="100%" width="100%" src="/Snaps/2.jpg"/>
 <br/>
-<img height="100%" width="100%" src="/Snaps/3.png"/>
+<img height="100%" width="100%" src="/Snaps/3.jpg"/>
 <br/>
-<img height="100%" width="100%" src="/Snaps/4.png"/>
+<img height="100%" width="100%" src="/Snaps/4.jpg"/>
 <br/>
-<img height="100%" width="100%" src="/Snaps/5.png"/>
+<img height="100%" width="100%" src="/Snaps/5.jpg"/>
 <br/>
 
 
