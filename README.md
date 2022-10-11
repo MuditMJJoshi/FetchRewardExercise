@@ -45,36 +45,58 @@ Creating payer and transaction database and instead of using in memory storage w
 # API Usage:
 
 - Add transaction to payer
+```
 POST http://localhost:8080/api/v1/FetchRewardServices/addPoints/1
+```
 Copy to PostMan import RawText
+```
 curl -L -X POST 'http://localhost:8080/api/v1/FetchRewardServices/addPoints/1' -H 'Content-Type: application/json' --data-raw '{ "payer": "DANNON", "points": 200, "timestamp": "2020-10-31T15:00:00Z" }'
+```
 Request body:
+```
 { "payer": "DANNON", "points": 200, "timestamp": "2020-10-31T15:00:00Z" }
+```
 Response body:
+```
 200 OK “Points added successfully”
+```
 
 - Spend transaction points
+```
 POST http://localhost:8080/api/v1/FetchRewardServices/spendPoints/1
+```
 Copy to PostMan import RawText
+```
 curl -L -X POST 'http://localhost:8080/ api/v1/FetchRewardServices/spendPoints/1' -H 'Content-Type: application/json' --data-raw '{ "points": 500 }'
+```
 Request body:
+```
 { "points": 500 }
+```
 Response body:
+```
 [
     {
         "points": -500,
         "payer": "DANNON"
     }
 ]
+```
 
 - Balance of payer
+```
 GET http://localhost:8080/api/v1/FetchRewardServices/balance/1
+```
 Copy to PostMan import RawText
+```
 curl -L -X GET 'http://localhost:8080/api/v1/FetchRewardServices/balance/1'
+```
 Response body:
+```
 {
     "DANNON": 700
 }
+```
 
 # Postman Example
 
