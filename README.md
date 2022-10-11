@@ -4,7 +4,7 @@ Rest service built using Java and Spring Boot to accepts HTTP requests and retur
 
 # Benefits of choosing JAVA SpringBoot:
 
-It reduces lots of development time and increases productivity. 
+- It reduces lots of development time and increases productivity. 
 It is very easy to integrate Spring Boot Application with its Spring Ecosystem like Spring JDBC, Spring ORM, Spring Data, Spring Security.
 It provides Embedded HTTP servers like Tomcat, Jetty etc. to develop and test our web applications very easily.
 It provides lots of plugins to develop and test Spring Boot Applications very easily using Build Tools like Maven and Gradle as well as work with embedded and in-memory Databases very easily. 
